@@ -2,10 +2,11 @@
 My own CSS guidelines &amp; methods
 --- 
 
-# Methodology 
+## Methodology 
 
-## Spacing convention 
-
+### Spacing convention 
+```css
 .selector {
   property: value;
 }
+```
