@@ -2,8 +2,6 @@
 My own CSS guidelines &amp; methods
 --- 
 
-## Methodology 
-
 ### Spacing 
 #### CSS
 ```css
