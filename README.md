@@ -9,7 +9,7 @@ selector {
   property: value;
 }
 
-selector{
+selector {
   property: value;
 }
 ```
