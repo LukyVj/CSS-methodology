@@ -5,51 +5,48 @@ My own CSS guidelines &amp; methods
 ### Spacing 
 #### CSS
 ```css
-selector {
-  property: value;
-}
+selector {property: value;}
 
 selector {
   property: value;
+  property: value;
+  /* and so on */
 }
-```
-#### SASS
-```css
+
+selector,
+selector,
 selector {
   property: value;
-  
-  otherSelector {
-    property: value;
-  }
 }
 ```
 
 ### Classing
 #### CSS 
+I'm using the [BEM](https://en.bem.info/) methodology with its default syntax. 
 ```css
-element.class {
+.block {
   property: value;
 }
 
-element.class-2 {
+.block__element {
+  property: value;
+}
+
+.block__element--modifier {
   property: value;
 }
 ```
 
 #### SASS
 ```css
-element.class {
+.block {
   property: value;
-}
-
-element{
-  
-  &.class-1{
+  &__element {
     property: value;
-  }
-  
-  &.class-2{
-    property: value;
+    &--modifier {
+      property: value;
+    }
   }
 }
 ```
+I try to avoid to nest more than 3 elements.
