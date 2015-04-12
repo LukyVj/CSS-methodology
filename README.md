@@ -2,7 +2,21 @@
 My own CSS guidelines &amp; methods
 --- 
 
-### Spacing 
+- [Intro](#intro)
+- [Spaces](#spaces)
+- [Classes](#classes)
+- 
+
+### Intro
+
+Howdy stranger ! 
+Welcome to my CSS-Methodology index, I decided to create this index since CSS is what I prefer to write when I have some free time, I also get some questions about my coding styles & conventions.. So here they are. 
+
+List will grow as much as possible, I'll fill it step by step with the time, so we can consider that it will never be "done"
+
+----
+
+### Spaces
 #### CSS
 ```css
 selector {
@@ -24,7 +38,7 @@ selector {
 }
 ```
 
-### Classing
+### Classes
 #### CSS 
 ```css
 element.class {
@@ -53,3 +67,5 @@ element{
   }
 }
 ```
+
+
