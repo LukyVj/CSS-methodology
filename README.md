@@ -5,7 +5,6 @@ My own CSS guidelines &amp; methods
 - [Intro](#intro)
 - [Spaces](#spaces)
 - [Classes](#classes)
-- 
 
 ### Intro
 
