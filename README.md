@@ -5,51 +5,54 @@ My own CSS guidelines &amp; methods
 ### Spacing 
 #### CSS
 ```css
+selector {property: value;}
+
+selector {
+  property: value;
+  property: value;
+  property: value;
+  /* and so on... */
+}
+
+selector,
 selector {
   property: value;
 }
 
+selector,
 selector {
   property: value;
-}
-```
-#### SASS
-```css
-selector {
   property: value;
-  
-  otherSelector {
-    property: value;
-  }
+  /* and so on... */
 }
 ```
 
 ### Classing
 #### CSS 
+I use, and recommend, [BEM](https://en.bem.info/) methodology.
 ```css
-element.class {
+.block {
   property: value;
 }
 
-element.class-2 {
+.block__element {
+  property: value;
+}
+
+.block__element--modifier {
   property: value;
 }
 ```
 
 #### SASS
 ```css
-element.class {
+.block {
   property: value;
-}
-
-element{
-  
-  &.class-1{
+  &__element {
     property: value;
-  }
-  
-  &.class-2{
-    property: value;
+    &--modifier {
+      property: value;
+    }
   }
 }
 ```
