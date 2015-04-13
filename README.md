@@ -62,7 +62,7 @@ selector{
   selector{
     property: value;
 
-    slelector{
+    selector{
       property: value;
 
       &:hover{
